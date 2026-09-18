@@ -1,0 +1,541 @@
+CustomerID,Recency,Frequency,Monetary,AOV,Cluster_ID,Cluster_Tier,R_Score,F_Score,M_Score,RFM_Composite,Business_Segment,Recommended_Action
+12346,10,1,23.07,23.07,2,Cluster_2,5,1,2,512,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12347,7,19,269.59,14.19,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12348,10,6,97.84,16.31,0,Cluster_3,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12349,57,2,41.6,20.8,1,Cluster_1,3,2,3,323,Needs Attention,Personalized re-activation email with product recommendations
+12353,6,10,218.28,21.83,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12354,122,2,32.93,16.46,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12355,36,4,47.36,11.84,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12357,13,19,310.72,16.35,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12358,62,7,129.55,18.51,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12360,83,1,6.2,6.2,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12362,33,2,27.19,13.6,1,Cluster_1,4,2,2,422,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12363,69,1,19.26,19.26,1,Cluster_1,2,1,2,212,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12364,174,1,15.28,15.28,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12365,107,1,18.8,18.8,1,Cluster_1,2,1,2,212,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12366,53,3,30.26,10.09,1,Cluster_1,3,3,2,332,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12369,77,1,9.23,9.23,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12371,57,3,46.14,15.38,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12372,156,1,11.92,11.92,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12374,35,3,37.33,12.44,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12376,18,1,16.14,16.14,2,Cluster_2,4,1,1,411,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12379,8,18,262.29,14.57,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12380,3,17,350.98,20.65,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12381,4,4,39.95,9.99,2,Cluster_2,5,3,3,533,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12384,3,2,35.52,17.76,2,Cluster_2,5,2,2,522,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12385,83,2,39.35,19.68,1,Cluster_1,2,2,3,223,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12387,21,2,29.5,14.75,2,Cluster_2,4,2,2,422,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12389,20,7,142.34,20.33,0,Cluster_3,4,4,5,445,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12390,155,1,6.4,6.4,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12391,42,3,56.18,18.73,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12393,171,2,31.63,15.82,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12394,175,1,9.4,9.4,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12396,8,21,396.23,18.87,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12397,45,5,113.88,22.78,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12398,10,11,178.65,16.24,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12399,2,10,193.19,19.32,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12401,20,13,242.59,18.66,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12406,4,1,12.17,12.17,2,Cluster_2,5,1,1,511,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12408,29,5,101.58,20.32,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12409,98,2,9.2,4.6,1,Cluster_1,2,2,1,221,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12410,29,1,22.45,22.45,1,Cluster_1,4,1,2,412,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12411,135,1,17.51,17.51,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12413,90,2,46.89,23.44,1,Cluster_1,2,2,3,223,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12414,224,1,4.28,4.28,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12415,10,42,691.86,16.47,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12416,48,7,140.0,20.0,0,Cluster_3,3,4,5,345,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12419,26,5,55.68,11.14,0,Cluster_3,4,4,3,443,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12420,32,1,29.38,29.38,1,Cluster_1,4,1,2,412,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12421,107,1,20.76,20.76,1,Cluster_1,2,1,2,212,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12422,124,3,62.17,20.72,0,Cluster_3,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12424,2,2,49.7,24.85,2,Cluster_2,5,2,3,523,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12426,1,10,159.57,15.96,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12428,138,1,26.45,26.45,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12431,85,1,14.76,14.76,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12432,111,2,26.52,13.26,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12433,82,2,31.69,15.84,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12434,32,8,147.09,18.39,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12435,256,1,27.93,27.93,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12436,47,1,11.52,11.52,1,Cluster_1,3,1,1,311,Needs Attention,Personalized re-activation email with product recommendations
+12438,30,6,122.47,20.41,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12439,81,2,20.75,10.38,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12440,51,7,117.28,16.75,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12441,231,1,8.43,8.43,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12447,93,1,15.99,15.99,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12448,180,2,52.88,26.44,1,Cluster_1,1,2,3,123,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12449,55,3,38.23,12.74,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12450,19,5,42.69,8.54,0,Cluster_3,4,4,3,443,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12451,67,2,40.86,20.43,1,Cluster_1,2,2,3,223,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12452,141,1,5.39,5.39,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12453,13,6,101.29,16.88,0,Cluster_3,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12456,31,2,63.42,31.71,0,Cluster_3,4,2,4,424,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12458,2,10,185.34,18.53,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12459,2,6,86.28,14.38,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12460,121,1,15.26,15.26,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12461,50,7,188.64,26.95,0,Cluster_3,3,4,5,345,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12462,16,7,107.42,15.35,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12464,11,5,61.96,12.39,2,Cluster_2,5,4,3,543,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12465,69,1,8.99,8.99,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12466,79,5,68.26,13.65,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12467,55,10,182.88,18.29,0,Cluster_3,3,5,5,355,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+12468,140,1,26.24,26.24,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12469,251,1,1.57,1.57,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12471,24,1,18.45,18.45,2,Cluster_2,4,1,2,412,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12472,52,7,120.79,17.26,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12473,27,4,88.03,22.01,0,Cluster_3,4,3,4,434,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12475,38,2,48.37,24.18,0,Cluster_3,3,2,3,323,Needs Attention,Personalized re-activation email with product recommendations
+12476,158,1,30.79,30.79,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12477,38,2,45.29,22.64,0,Cluster_3,3,2,3,323,Needs Attention,Personalized re-activation email with product recommendations
+12480,54,13,202.96,15.61,0,Cluster_3,3,5,5,355,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+12482,9,1,4.36,4.36,2,Cluster_2,5,1,1,511,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12483,105,3,16.82,5.61,1,Cluster_1,2,3,1,231,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12485,14,31,513.58,16.57,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12486,2,22,394.05,17.91,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12488,114,1,3.28,3.28,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12490,68,1,13.26,13.26,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12492,87,1,40.97,40.97,1,Cluster_1,2,1,3,213,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12495,203,1,9.88,9.88,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12496,54,14,247.06,17.65,0,Cluster_3,3,5,5,355,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+12499,72,1,43.56,43.56,1,Cluster_1,2,1,3,213,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12500,15,42,668.96,15.93,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12502,40,3,31.96,10.65,0,Cluster_3,3,3,2,332,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12503,12,7,152.09,21.73,0,Cluster_3,5,4,5,545,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12504,169,2,65.49,32.74,1,Cluster_1,1,2,4,124,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12505,108,2,63.55,31.78,1,Cluster_1,2,2,4,224,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12507,191,2,30.61,15.3,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12508,33,1,7.01,7.01,1,Cluster_1,3,1,1,311,Needs Attention,Personalized re-activation email with product recommendations
+12509,52,2,44.08,22.04,1,Cluster_1,3,2,3,323,Needs Attention,Personalized re-activation email with product recommendations
+12511,108,4,29.1,7.28,1,Cluster_1,2,3,2,232,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12515,178,3,46.34,15.45,1,Cluster_1,1,3,3,133,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12516,138,2,10.53,5.26,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12518,88,2,49.2,24.6,1,Cluster_1,2,2,3,223,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12520,217,2,55.69,27.84,1,Cluster_1,1,2,3,123,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12522,7,1,10.38,10.38,2,Cluster_2,5,1,1,511,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12523,5,2,6.44,3.22,2,Cluster_2,5,2,1,521,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12524,24,13,131.47,10.11,0,Cluster_3,4,5,4,454,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12528,5,5,163.34,32.67,2,Cluster_2,5,4,5,545,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12529,76,8,134.54,16.82,0,Cluster_3,2,5,4,254,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12531,47,5,84.37,16.87,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12532,27,5,72.91,14.58,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12533,29,2,25.61,12.8,2,Cluster_2,4,2,2,422,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12534,98,1,20.85,20.85,1,Cluster_1,2,1,2,212,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12537,14,9,187.26,20.81,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12538,25,10,160.99,16.1,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12541,239,2,20.05,10.02,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12543,13,7,86.4,12.34,0,Cluster_3,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12544,37,8,71.35,8.92,0,Cluster_3,3,5,4,354,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+12545,70,3,60.64,20.21,0,Cluster_3,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12546,5,4,45.96,11.49,2,Cluster_2,5,3,3,533,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12549,13,8,162.81,20.35,0,Cluster_3,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12550,9,2,14.97,7.48,2,Cluster_2,5,2,1,521,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12553,18,3,38.77,12.92,2,Cluster_2,4,3,3,433,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12556,174,1,1.94,1.94,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12557,1,3,93.96,31.32,2,Cluster_2,5,3,4,534,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12558,33,3,56.65,18.88,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12560,112,2,60.93,30.46,1,Cluster_1,2,2,3,223,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12561,76,2,29.14,14.57,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12562,126,3,57.27,19.09,1,Cluster_1,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12563,83,3,65.93,21.98,0,Cluster_3,2,3,4,234,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12564,23,1,29.17,29.17,2,Cluster_2,4,1,2,412,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12565,32,5,113.95,22.79,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12566,57,3,60.1,20.03,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12567,121,2,27.95,13.98,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12569,77,1,21.68,21.68,1,Cluster_1,2,1,2,212,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12570,217,1,12.13,12.13,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12571,235,1,6.72,6.72,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12572,2,28,485.31,17.33,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12573,283,1,25.5,25.5,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12574,81,7,85.18,12.17,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12575,241,1,11.22,11.22,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12576,21,9,146.15,16.24,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12577,16,1,44.01,44.01,2,Cluster_2,4,1,3,413,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12578,46,2,18.43,9.22,1,Cluster_1,3,2,2,322,Needs Attention,Personalized re-activation email with product recommendations
+12579,54,2,27.02,13.51,1,Cluster_1,3,2,2,322,Needs Attention,Personalized re-activation email with product recommendations
+12581,99,4,63.84,15.96,0,Cluster_3,2,3,4,234,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12582,48,1,6.56,6.56,1,Cluster_1,3,1,1,311,Needs Attention,Personalized re-activation email with product recommendations
+12584,94,1,3.8,3.8,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12586,13,19,287.66,15.14,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12587,20,16,260.44,16.28,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12588,7,22,306.94,13.95,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12589,9,1,18.2,18.2,2,Cluster_2,5,1,2,512,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12591,73,14,215.11,15.36,0,Cluster_3,2,5,5,255,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12592,89,2,24.97,12.48,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12593,5,22,399.77,18.17,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12594,10,18,297.66,16.54,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12595,79,4,103.02,25.76,0,Cluster_3,2,3,4,234,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12596,160,1,6.0,6.0,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12598,74,6,64.45,10.74,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12601,65,2,52.29,26.15,1,Cluster_1,3,2,3,323,Needs Attention,Personalized re-activation email with product recommendations
+12602,44,15,185.17,12.34,0,Cluster_3,3,5,5,355,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+12603,52,4,74.68,18.67,0,Cluster_3,3,3,4,334,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12604,28,3,38.6,12.87,0,Cluster_3,4,3,3,433,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12606,146,1,4.0,4.0,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12607,7,63,1072.95,17.03,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12608,239,1,6.48,6.48,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12609,190,1,5.76,5.76,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12610,76,11,245.29,22.3,0,Cluster_3,2,5,5,255,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12611,32,4,29.88,7.47,0,Cluster_3,4,3,2,432,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12612,62,4,44.06,11.02,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12613,49,4,125.53,31.38,0,Cluster_3,3,3,4,334,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12614,99,1,2.49,2.49,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12616,7,3,74.17,24.72,2,Cluster_2,5,3,4,534,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12617,18,4,46.4,11.6,2,Cluster_2,4,4,3,443,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12618,105,4,45.04,11.26,0,Cluster_3,2,4,3,243,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12619,30,10,178.66,17.87,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12620,209,1,4.52,4.52,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12621,164,1,23.82,23.82,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12622,23,3,64.88,21.63,0,Cluster_3,4,3,4,434,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12624,43,5,103.9,20.78,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12625,46,4,98.0,24.5,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12626,39,5,55.06,11.01,0,Cluster_3,3,4,3,343,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12627,41,2,31.82,15.91,1,Cluster_1,3,2,2,322,Needs Attention,Personalized re-activation email with product recommendations
+12628,59,3,27.1,9.03,1,Cluster_1,3,3,2,332,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12630,108,1,35.62,35.62,1,Cluster_1,2,1,2,212,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12632,233,1,24.14,24.14,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12633,118,2,50.61,25.3,1,Cluster_1,2,2,3,223,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12635,23,4,61.9,15.48,0,Cluster_3,4,4,3,443,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12636,10,1,30.99,30.99,2,Cluster_2,5,1,2,512,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12638,29,3,83.15,27.72,0,Cluster_3,4,3,4,434,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12639,127,2,15.29,7.64,1,Cluster_1,2,2,1,221,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12641,34,1,18.9,18.9,1,Cluster_1,3,1,2,312,Needs Attention,Personalized re-activation email with product recommendations
+12642,69,2,63.45,31.72,0,Cluster_3,2,2,4,224,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12643,171,1,4.39,4.39,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12644,70,2,20.84,10.42,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12647,60,4,60.75,15.19,0,Cluster_3,3,4,3,343,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12648,139,5,67.65,13.53,0,Cluster_3,1,4,4,144,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12649,63,3,73.89,24.63,0,Cluster_3,3,3,4,334,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12650,29,7,162.98,23.28,0,Cluster_3,4,4,5,445,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12651,1,27,554.29,20.53,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12652,134,1,3.24,3.24,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12653,26,4,52.85,13.21,0,Cluster_3,4,4,3,443,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12654,28,5,50.47,10.09,0,Cluster_3,4,4,3,443,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12655,135,1,12.4,12.4,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12656,5,3,78.87,26.29,2,Cluster_2,5,3,4,534,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12659,10,17,244.75,14.4,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12660,14,5,68.96,13.79,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12661,190,1,25.0,25.0,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12662,106,2,39.66,19.83,1,Cluster_1,2,2,3,223,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12663,3,1,9.47,9.47,2,Cluster_2,5,1,1,511,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12666,101,1,7.0,7.0,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12667,42,1,11.14,11.14,1,Cluster_1,3,1,1,311,Needs Attention,Personalized re-activation email with product recommendations
+12668,146,2,21.03,10.51,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12670,34,15,291.16,19.41,3,Cluster_4,3,5,5,355,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+12671,90,4,76.8,19.2,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12672,139,2,18.07,9.04,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12673,238,1,22.18,22.18,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12674,140,2,14.1,7.05,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12677,122,3,35.68,11.89,1,Cluster_1,2,3,2,232,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12681,280,1,24.49,24.49,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12682,21,8,158.64,19.83,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12683,173,1,13.44,13.44,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12684,287,2,25.0,12.5,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12687,56,2,36.42,18.21,1,Cluster_1,3,2,3,323,Needs Attention,Personalized re-activation email with product recommendations
+12689,279,1,6.48,6.48,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12690,27,1,15.05,15.05,1,Cluster_1,4,1,1,411,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12691,163,2,21.14,10.57,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12692,7,2,36.12,18.06,2,Cluster_2,5,2,2,522,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12695,49,1,3.74,3.74,1,Cluster_1,3,1,1,311,Needs Attention,Personalized re-activation email with product recommendations
+12696,32,4,48.75,12.19,0,Cluster_3,4,4,3,443,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12697,1,5,105.86,21.17,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12698,62,1,24.89,24.89,1,Cluster_1,3,1,2,312,Needs Attention,Personalized re-activation email with product recommendations
+12699,131,1,13.14,13.14,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12701,48,2,23.73,11.86,1,Cluster_1,3,2,2,322,Needs Attention,Personalized re-activation email with product recommendations
+12704,25,21,401.99,19.14,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12705,61,5,56.13,11.23,0,Cluster_3,3,4,3,343,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12706,30,4,129.69,32.42,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12707,219,1,21.04,21.04,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12709,290,1,19.28,19.28,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12710,20,14,270.14,19.3,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12711,142,1,2.03,2.03,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12712,21,21,448.85,21.37,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12713,23,8,121.63,15.2,0,Cluster_3,4,5,4,454,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12714,33,1,22.83,22.83,1,Cluster_1,3,1,2,312,Needs Attention,Personalized re-activation email with product recommendations
+12719,116,1,3.48,3.48,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12720,261,1,43.44,43.44,1,Cluster_1,1,1,3,113,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12721,164,1,2.66,2.66,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12722,25,7,100.3,14.33,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12724,13,8,143.61,17.95,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12727,1,3,16.3,5.43,2,Cluster_2,5,3,1,531,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12728,45,4,111.07,27.77,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12729,20,13,146.06,11.24,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12730,91,3,43.43,14.48,1,Cluster_1,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12731,7,4,59.99,15.0,2,Cluster_2,5,4,3,543,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12734,83,5,79.24,15.85,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12735,120,4,77.1,19.27,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12736,8,47,785.52,16.71,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12737,32,1,27.16,27.16,1,Cluster_1,4,1,2,412,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12738,241,1,42.0,42.0,1,Cluster_1,1,1,3,113,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12739,79,6,139.87,23.31,0,Cluster_3,2,4,5,245,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12740,42,2,51.82,25.91,0,Cluster_3,3,2,3,323,Needs Attention,Personalized re-activation email with product recommendations
+12741,3,11,146.47,13.32,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12742,59,5,102.71,20.54,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12743,39,2,41.75,20.88,0,Cluster_3,3,2,3,323,Needs Attention,Personalized re-activation email with product recommendations
+12744,173,2,42.67,21.34,1,Cluster_1,1,2,3,123,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12745,97,3,27.57,9.19,1,Cluster_1,2,3,2,232,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12747,21,10,172.31,17.23,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12748,32,2,25.54,12.77,1,Cluster_1,4,2,2,422,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12749,2,6,102.18,17.03,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12751,19,5,73.02,14.6,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12754,17,6,109.27,18.21,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12756,38,1,14.76,14.76,1,Cluster_1,3,1,1,311,Needs Attention,Personalized re-activation email with product recommendations
+12757,6,23,380.22,16.53,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12758,4,18,341.3,18.96,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12760,137,1,19.31,19.31,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12762,18,1,20.02,20.02,2,Cluster_2,4,1,2,412,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12763,4,1,11.55,11.55,2,Cluster_2,5,1,1,511,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12764,67,2,11.34,5.67,1,Cluster_1,2,2,1,221,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12765,40,4,37.03,9.26,0,Cluster_3,3,4,3,343,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12766,63,7,88.56,12.65,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12767,9,3,43.97,14.66,2,Cluster_2,5,3,3,533,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12772,203,1,35.02,35.02,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12773,30,9,211.88,23.54,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12774,72,2,29.74,14.87,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12777,30,8,136.07,17.01,0,Cluster_3,4,5,4,454,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12778,189,1,23.48,23.48,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12780,64,2,47.51,23.76,1,Cluster_1,3,2,3,323,Needs Attention,Personalized re-activation email with product recommendations
+12781,111,3,69.59,23.2,0,Cluster_3,2,3,4,234,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12783,178,3,47.53,15.84,1,Cluster_1,1,3,3,133,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12784,8,5,57.17,11.43,2,Cluster_2,5,4,3,543,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12787,11,51,919.13,18.02,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12790,94,2,41.04,20.52,1,Cluster_1,2,2,3,223,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12791,8,15,339.62,22.64,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12792,19,34,555.95,16.35,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12793,54,6,46.14,7.69,0,Cluster_3,3,4,3,343,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12796,55,2,27.89,13.94,1,Cluster_1,3,2,2,322,Needs Attention,Personalized re-activation email with product recommendations
+12798,34,2,11.93,5.96,1,Cluster_1,3,2,1,321,Needs Attention,Personalized re-activation email with product recommendations
+12799,61,6,118.66,19.78,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12801,97,1,34.62,34.62,1,Cluster_1,2,1,2,212,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12803,109,1,10.42,10.42,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12807,68,2,36.15,18.08,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12808,24,3,51.97,17.32,0,Cluster_3,4,3,3,433,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12809,136,1,28.44,28.44,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12810,13,11,123.07,11.19,0,Cluster_3,4,5,4,454,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12811,5,1,15.41,15.41,2,Cluster_2,5,1,1,511,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12813,58,6,148.61,24.77,0,Cluster_3,3,4,5,345,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12814,5,3,49.11,16.37,2,Cluster_2,5,3,3,533,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12815,10,22,460.8,20.95,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12817,23,19,352.67,18.56,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12819,6,9,168.52,18.72,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12820,64,2,54.71,27.36,1,Cluster_1,3,2,3,323,Needs Attention,Personalized re-activation email with product recommendations
+12821,9,66,1226.75,18.59,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12823,39,1,23.44,23.44,1,Cluster_1,3,1,2,312,Needs Attention,Personalized re-activation email with product recommendations
+12824,9,27,429.62,15.91,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12825,41,4,36.11,9.03,0,Cluster_3,3,4,2,342,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12826,66,4,96.9,24.22,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12827,5,4,70.49,17.62,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12828,177,1,25.46,25.46,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12829,96,3,42.07,14.02,1,Cluster_1,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12830,55,4,60.5,15.12,0,Cluster_3,3,4,3,343,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12831,39,7,127.96,18.28,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12834,10,14,180.05,12.86,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12835,40,14,232.88,16.63,0,Cluster_3,3,5,5,355,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+12836,153,3,74.9,24.97,0,Cluster_3,1,3,4,134,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12837,176,1,39.94,39.94,1,Cluster_1,1,1,3,113,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12840,52,2,21.81,10.9,1,Cluster_1,3,3,2,332,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12841,51,1,16.77,16.77,1,Cluster_1,3,1,1,311,Needs Attention,Personalized re-activation email with product recommendations
+12842,226,1,42.96,42.96,1,Cluster_1,1,1,3,113,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12844,11,28,496.38,17.73,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12845,2,47,834.09,17.75,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12846,36,3,18.56,6.19,1,Cluster_1,3,3,2,332,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12847,24,5,86.16,17.23,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12848,19,1,4.18,4.18,1,Cluster_1,4,1,1,411,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12849,50,3,52.64,17.55,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12850,53,5,124.75,24.95,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12852,45,11,192.57,17.51,0,Cluster_3,3,5,5,355,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+12853,46,3,37.59,12.53,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12854,1,15,304.34,20.29,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12855,19,5,77.61,15.52,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12857,65,3,99.49,33.16,0,Cluster_3,2,3,4,234,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12858,11,17,261.79,15.4,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12859,5,5,67.09,13.42,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12863,54,3,60.76,20.25,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12864,3,40,790.31,19.76,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12866,75,2,24.82,12.41,1,Cluster_1,2,3,2,232,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12867,68,2,55.23,27.62,1,Cluster_1,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12868,4,25,505.45,20.22,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12869,71,5,54.56,10.91,0,Cluster_3,2,4,3,243,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12870,1,7,129.86,18.55,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12871,28,3,33.77,11.26,2,Cluster_2,4,3,2,432,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12872,17,5,68.95,13.79,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12873,21,2,33.36,16.68,2,Cluster_2,4,3,2,432,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12875,40,7,130.49,18.64,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12876,1,4,84.61,21.15,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12877,1,584,10309.65,17.65,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12878,1,117,1900.32,16.24,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12879,24,3,18.97,6.32,2,Cluster_2,4,3,2,432,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12880,251,1,3.44,3.44,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12881,1,19,295.02,15.53,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12882,38,8,140.25,17.53,0,Cluster_3,3,5,5,355,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+12883,174,1,14.82,14.82,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12884,167,1,4.98,4.98,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12886,10,21,395.59,18.84,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12887,51,5,56.43,11.29,0,Cluster_3,3,4,3,343,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12889,75,5,115.79,23.16,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12890,100,1,16.54,16.54,1,Cluster_1,2,1,1,211,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12891,140,1,8.19,8.19,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12893,103,3,53.91,17.97,0,Cluster_3,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12894,182,1,30.15,30.15,1,Cluster_1,1,1,2,112,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12895,113,6,91.13,15.19,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12896,33,1,16.7,16.7,1,Cluster_1,3,1,1,311,Needs Attention,Personalized re-activation email with product recommendations
+12897,34,7,143.11,20.44,0,Cluster_3,3,4,5,345,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12898,49,2,25.13,12.56,1,Cluster_1,3,3,2,332,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12899,24,3,35.34,11.78,2,Cluster_2,4,3,2,432,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12900,27,6,129.01,21.5,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12902,165,1,3.86,3.86,1,Cluster_1,1,1,1,111,Lost / Inactive,Exclude from paid acquisition remarketing to conserve budget
+12904,24,5,68.56,13.71,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12905,20,4,55.94,13.98,0,Cluster_3,4,4,3,443,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12906,23,4,66.88,16.72,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12911,37,5,100.97,20.19,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12912,53,3,50.29,16.76,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12913,31,1,9.93,9.93,1,Cluster_1,4,2,1,421,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12914,7,4,87.14,21.78,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12916,2,4,39.96,9.99,2,Cluster_2,5,4,3,543,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12917,87,4,94.67,23.67,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12918,32,2,71.95,35.98,0,Cluster_3,4,3,4,434,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12919,105,1,1.75,1.75,1,Cluster_1,2,2,1,221,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12920,84,7,131.94,18.85,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12921,16,18,323.42,17.97,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12923,6,13,258.96,19.92,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12926,23,2,23.0,11.5,2,Cluster_2,4,3,2,432,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12927,5,34,711.51,20.93,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12928,251,1,21.95,21.95,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12930,115,1,9.26,9.26,1,Cluster_1,2,2,1,221,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12933,227,1,7.88,7.88,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12937,54,2,9.26,4.63,1,Cluster_1,3,3,1,331,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12938,80,1,2.11,2.11,1,Cluster_1,2,2,1,221,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12940,25,13,249.58,19.2,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12941,98,1,10.32,10.32,1,Cluster_1,2,2,1,221,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12942,15,1,14.67,14.67,2,Cluster_2,4,2,1,421,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12952,201,1,12.4,12.4,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12953,25,2,57.46,28.73,2,Cluster_2,4,3,3,433,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12954,149,2,48.74,24.37,1,Cluster_1,1,3,3,133,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12955,50,1,8.81,8.81,1,Cluster_1,3,2,1,321,Needs Attention,Personalized re-activation email with product recommendations
+12957,21,7,155.01,22.14,0,Cluster_3,4,4,5,445,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12958,116,1,25.64,25.64,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12960,136,4,82.14,20.54,0,Cluster_3,1,4,4,144,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12961,74,10,235.34,23.53,0,Cluster_3,2,5,5,255,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12964,15,6,131.32,21.89,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12965,38,6,125.93,20.99,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12966,54,1,13.2,13.2,1,Cluster_1,3,2,1,321,Needs Attention,Personalized re-activation email with product recommendations
+12967,104,1,25.36,25.36,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12968,170,1,31.1,31.1,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12969,40,1,11.7,11.7,1,Cluster_1,3,2,1,321,Needs Attention,Personalized re-activation email with product recommendations
+12971,109,1,36.85,36.85,1,Cluster_1,2,2,3,223,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12972,9,2,43.0,21.5,2,Cluster_2,5,3,3,533,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12973,116,4,47.9,11.98,0,Cluster_3,2,4,3,243,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+12974,202,1,3.18,3.18,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12976,228,1,22.07,22.07,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12977,4,9,122.77,13.64,3,Cluster_4,5,5,4,554,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12978,14,2,59.59,29.8,2,Cluster_2,4,3,3,433,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12979,54,2,43.59,21.8,1,Cluster_1,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12981,237,1,4.16,4.16,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12982,215,1,4.6,4.6,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12983,12,1,20.57,20.57,2,Cluster_2,5,2,2,522,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12984,64,1,17.11,17.11,1,Cluster_1,3,2,1,321,Needs Attention,Personalized re-activation email with product recommendations
+12987,26,2,22.26,11.13,2,Cluster_2,4,3,2,432,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12989,38,2,34.6,17.3,1,Cluster_1,3,3,2,332,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12991,14,11,104.3,9.48,0,Cluster_3,4,5,4,454,Champions,"VIP concierge access, early product drops, loyalty rewards"
+12992,22,3,47.69,15.9,2,Cluster_2,4,3,3,433,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12993,9,3,52.36,17.45,2,Cluster_2,5,3,3,533,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+12994,92,2,32.54,16.27,1,Cluster_1,2,3,2,232,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12996,10,1,18.61,18.61,2,Cluster_2,5,2,2,522,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12997,4,1,15.62,15.62,2,Cluster_2,5,2,1,521,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+12998,235,1,21.27,21.27,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+12999,36,7,139.95,19.99,0,Cluster_3,3,4,5,345,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13000,43,3,78.13,26.04,0,Cluster_3,3,3,4,334,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13003,77,2,48.55,24.28,1,Cluster_1,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13004,14,6,88.71,14.79,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13006,272,1,14.92,14.92,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13007,1,38,711.8,18.73,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13008,130,2,33.81,16.9,1,Cluster_1,1,3,2,132,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13017,7,8,119.76,14.97,0,Cluster_3,5,5,4,554,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13020,174,2,40.43,20.22,1,Cluster_1,1,3,3,133,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13021,2,29,475.84,16.41,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13024,18,21,368.07,17.53,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13025,8,9,164.98,18.33,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13026,5,5,111.22,22.24,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13028,301,1,10.23,10.23,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13029,134,2,39.5,19.75,1,Cluster_1,1,3,3,133,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13030,2,22,394.64,17.94,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13031,180,1,9.66,9.66,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13032,84,2,20.7,10.35,1,Cluster_1,2,3,2,232,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13034,73,3,28.87,9.62,1,Cluster_1,2,3,2,232,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13037,135,1,32.49,32.49,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13038,22,2,41.06,20.53,2,Cluster_2,4,3,3,433,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13041,126,1,7.6,7.6,1,Cluster_1,2,2,1,221,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13045,171,1,15.44,15.44,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13046,1,3,45.4,15.13,2,Cluster_2,5,3,3,533,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13049,284,1,31.51,31.51,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13051,5,49,862.02,17.59,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13053,70,4,70.03,17.51,0,Cluster_3,2,4,4,244,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+13055,62,6,140.42,23.4,0,Cluster_3,3,4,5,345,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13056,66,3,40.49,13.5,0,Cluster_3,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13057,16,8,111.77,13.97,0,Cluster_3,4,5,4,454,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13058,16,3,71.16,23.72,2,Cluster_2,4,3,4,434,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13059,295,1,4.87,4.87,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13061,46,11,217.29,19.75,0,Cluster_3,3,5,5,355,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+13062,16,10,183.56,18.36,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13063,11,29,443.09,15.28,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13064,139,1,10.35,10.35,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13065,115,2,32.27,16.13,1,Cluster_1,2,3,2,232,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13066,8,15,302.62,20.17,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13067,144,2,19.72,9.86,1,Cluster_1,1,3,2,132,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13069,56,5,83.69,16.74,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13070,116,1,25.35,25.35,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13071,20,8,124.9,15.61,0,Cluster_3,4,5,4,454,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13073,11,5,102.61,20.52,0,Cluster_3,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13074,137,1,3.25,3.25,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13077,22,7,141.3,20.19,0,Cluster_3,4,4,5,445,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13078,9,3,66.49,22.16,2,Cluster_2,5,3,4,534,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13079,190,2,43.25,21.62,1,Cluster_1,1,3,3,133,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13080,36,2,36.43,18.22,1,Cluster_1,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13081,62,7,109.57,15.65,0,Cluster_3,3,4,4,344,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13082,309,1,3.74,3.74,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13083,18,7,169.31,24.19,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13084,36,3,59.71,19.9,0,Cluster_3,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13085,234,2,55.27,27.64,1,Cluster_1,1,3,3,133,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13086,26,2,29.64,14.82,2,Cluster_2,4,3,2,432,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13087,95,1,18.23,18.23,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13088,85,1,15.15,15.15,1,Cluster_1,2,2,1,221,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13091,89,3,50.56,16.85,0,Cluster_3,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13093,78,3,81.12,27.04,0,Cluster_3,2,3,4,234,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13094,14,13,203.21,15.63,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13095,65,2,24.67,12.34,1,Cluster_1,2,3,2,232,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13097,14,12,229.15,19.1,3,Cluster_4,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13098,202,2,10.4,5.2,1,Cluster_1,1,3,1,131,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13099,46,1,13.03,13.03,1,Cluster_1,3,2,1,321,Needs Attention,Personalized re-activation email with product recommendations
+13101,167,4,65.79,16.45,0,Cluster_3,1,4,4,144,At Risk (High Value),"Direct retention outreach, aggressive win-back discount"
+13102,32,4,46.13,11.53,0,Cluster_3,4,4,3,443,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13103,12,1,39.87,39.87,2,Cluster_2,5,2,3,523,Recent Converts / Promising,"Onboarding nurture stream, time-limited 2nd-order voucher"
+13104,15,7,99.53,14.22,0,Cluster_3,4,5,4,454,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13105,44,7,144.71,20.67,0,Cluster_3,3,5,5,355,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+13106,274,1,26.7,26.7,1,Cluster_1,1,2,2,122,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13107,110,2,49.47,24.74,1,Cluster_1,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13109,2,5,97.57,19.51,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13111,32,6,99.88,16.65,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13112,3,6,73.01,12.17,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13113,32,5,55.52,11.1,0,Cluster_3,4,4,3,443,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13114,285,1,1.63,1.63,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13115,29,4,79.52,19.88,0,Cluster_3,4,4,4,444,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13117,5,5,104.94,20.99,2,Cluster_2,5,4,4,544,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13119,272,1,7.06,7.06,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13120,128,2,36.53,18.26,1,Cluster_1,2,3,3,233,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13123,12,4,39.95,9.99,2,Cluster_2,5,4,3,543,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13124,33,2,85.38,42.69,0,Cluster_3,3,3,4,334,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13125,80,2,22.68,11.34,1,Cluster_1,2,3,2,232,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13126,22,2,37.71,18.86,2,Cluster_2,4,3,3,433,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13127,169,1,1.7,1.7,1,Cluster_1,1,2,1,121,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13128,112,2,64.37,32.18,1,Cluster_1,2,3,4,234,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13131,9,11,156.46,14.22,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13132,56,2,39.61,19.8,1,Cluster_1,3,3,3,333,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13133,185,2,36.7,18.35,1,Cluster_1,1,3,3,133,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13134,138,2,48.32,24.16,1,Cluster_1,1,3,3,133,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13135,2,16,197.24,12.33,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13137,135,2,28.27,14.14,1,Cluster_1,1,3,2,132,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13138,157,2,7.23,3.62,1,Cluster_1,1,3,1,131,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13139,43,3,14.58,4.86,1,Cluster_1,3,3,1,331,Loyal Customers,"Category expansion, upsell incentives, referral programs"
+13141,27,7,144.15,20.59,0,Cluster_3,4,5,5,455,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13142,10,10,146.8,14.68,3,Cluster_4,5,5,5,555,Champions,"VIP concierge access, early product drops, loyalty rewards"
+13143,126,1,20.81,20.81,1,Cluster_1,2,2,2,222,Hibernating,Low-cost email engagement test; purge if no response in 60d
+13144,40,7,120.05,17.15,0,Cluster_3,3,5,4,354,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
+13145,47,14,280.34,20.02,0,Cluster_3,3,5,5,355,Mid-Market Regulars,"Standard promo calendar, threshold-based free shipping"
