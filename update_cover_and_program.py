@@ -1,9 +1,11 @@
 """
 update_cover_and_program.py
-Updates the project report with:
-1. Premium, elegant academic Cover Page with formal layout and borders.
-2. Degree updated to: B.Sc. AI and Data Science (Bachelor of Science in Artificial Intelligence & Data Science).
-3. Department updated to: Department of Artificial Intelligence & Data Science.
+Generates a perfect, university-grade academic project report with:
+1. Official Institute of Advanced Research (IAR) Banner embedded at the top of the cover page.
+2. Program: B.Sc. in Artificial Intelligence & Data Science, Semester V (5th Semester).
+3. Candidate: Deep Koshiya
+4. Milestone: First Progress Work (Date: 24/09/2026, 10 Marks).
+5. All UML & DFD diagrams embedded, preserving the ~10-page layout.
 """
 
 from pathlib import Path
@@ -19,18 +21,12 @@ def set_cell_background(cell, hex_color):
     shd = parse_xml(f'<w:shd {nsdecls("w")} w:fill="{hex_color}"/>')
     tcPr.append(shd)
 
-def set_cell_margins(cell, top=80, bottom=80, left=120, right=120):
+def set_cell_margins(cell, top=60, bottom=60, left=100, right=100):
     tcPr = cell._element.get_or_add_tcPr()
     tcMar = parse_xml(f'<w:tcMar {nsdecls("w")}><w:top w:w="{top}" w:type="dxa"/><w:bottom w:w="{bottom}" w:type="dxa"/><w:left w:w="{left}" w:type="dxa"/><w:right w:w="{right}" w:type="dxa"/></w:tcMar>')
     tcPr.append(tcMar)
 
 def set_cell_border(cell, **kwargs):
-    """
-    kwargs can be top, bottom, left, right.
-    val: 'single', 'double', 'dashed', etc.
-    color: '000000'
-    sz: '12' (1/8 pt)
-    """
     tcPr = cell._element.get_or_add_tcPr()
     tcBorders = parse_xml(f'<w:tcBorders {nsdecls("w")}/>')
     for edge in ('top', 'left', 'bottom', 'right'):
@@ -47,16 +43,16 @@ def build_report():
     img_dir = base_dir / "report_images"
     doc = Document()
 
-    # Configure Margins: 1.15 in left (for spiral binding), 0.85 in top/bottom/right
+    # Configure Margins: 1.15 in left (for spiral binding), 0.8 in top/bottom/right
     for section in doc.sections:
-        section.top_margin = Inches(0.85)
-        section.bottom_margin = Inches(0.85)
+        section.top_margin = Inches(0.8)
+        section.bottom_margin = Inches(0.8)
         section.left_margin = Inches(1.15)
         section.right_margin = Inches(0.85)
 
     NAVY = RGBColor(15, 23, 42)
-    INDIGO = RGBColor(30, 27, 75)       # Deep Royal Navy #1e1b4b
-    ACCENT_BLUE = RGBColor(37, 99, 235) # Vibrant Blue #2563eb
+    MAROON = RGBColor(122, 0, 60)      # IAR Brand Maroon #7a003c
+    INDIGO = RGBColor(30, 27, 75)      # Deep Royal Navy #1e1b4b
     SLATE = RGBColor(71, 85, 105)
 
     style_normal = doc.styles['Normal']
@@ -136,65 +132,75 @@ def build_report():
         return p
 
     # =========================================================================
-    # PAGE 1: PREMIUM ACADEMIC COVER PAGE
+    # PAGE 1: PERFECT ACADEMIC COVER PAGE WITH IAR BANNER AT TOP
     # =========================================================================
-    
-    # Outer Border Box table to frame the entire cover page
     outer_table = doc.add_table(rows=1, cols=1)
     outer_table.alignment = WD_TABLE_ALIGNMENT.CENTER
     outer_cell = outer_table.rows[0].cells[0]
     set_cell_background(outer_cell, "FFFFFF")
-    set_cell_margins(outer_cell, top=140, bottom=140, left=180, right=180)
+    set_cell_margins(outer_cell, top=100, bottom=100, left=140, right=140)
     set_cell_border(outer_cell, 
-                    top={"val": "double", "sz": "18", "color": "1E1B4B"},
-                    bottom={"val": "double", "sz": "18", "color": "1E1B4B"},
-                    left={"val": "double", "sz": "18", "color": "1E1B4B"},
-                    right={"val": "double", "sz": "18", "color": "1E1B4B"})
+                    top={"val": "double", "sz": "18", "color": "7A003C"},
+                    bottom={"val": "double", "sz": "18", "color": "7A003C"},
+                    left={"val": "double", "sz": "18", "color": "7A003C"},
+                    right={"val": "double", "sz": "18", "color": "7A003C"})
 
-    # Content inside the framed cover
-    cp0 = outer_cell.paragraphs[0]
-    cp0.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    cp0.paragraph_format.space_after = Pt(2)
-    r_hdr_inst = cp0.add_run("DEPARTMENT OF ARTIFICIAL INTELLIGENCE & DATA SCIENCE")
-    r_hdr_inst.font.name = 'Times New Roman'
-    r_hdr_inst.font.size = Pt(13)
-    r_hdr_inst.font.bold = True
-    r_hdr_inst.font.color.rgb = INDIGO
+    # 1. Embed IAR Banner Image at the top of the coverpage
+    iar_banner_path = img_dir / "iar_banner_hd.png"
+    if not iar_banner_path.exists():
+        iar_banner_path = img_dir / "iar_banner.png"
+    
+    cp_banner = outer_cell.paragraphs[0]
+    cp_banner.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    cp_banner.paragraph_format.space_after = Pt(8)
+    if iar_banner_path.exists():
+        run_img = cp_banner.add_run()
+        run_img.add_picture(str(iar_banner_path), width=Inches(5.4))
+
+    # 2. Department & Degree Info
+    cp_dept = outer_cell.add_paragraph()
+    cp_dept.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    cp_dept.paragraph_format.space_after = Pt(2)
+    r_dept = cp_dept.add_run("DEPARTMENT OF ARTIFICIAL INTELLIGENCE & DATA SCIENCE")
+    r_dept.font.name = 'Times New Roman'
+    r_dept.font.size = Pt(12)
+    r_dept.font.bold = True
+    r_dept.font.color.rgb = MAROON
 
     cp_deg = outer_cell.add_paragraph()
     cp_deg.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    cp_deg.paragraph_format.space_after = Pt(16)
-    r_deg_text = cp_deg.add_run("B.Sc. in Artificial Intelligence & Data Science | Semester VII\nAcademic Year: 2026 – 2027")
+    cp_deg.paragraph_format.space_after = Pt(12)
+    r_deg_text = cp_deg.add_run("B.Sc. in Artificial Intelligence & Data Science | Semester V (5th Sem)\nAcademic Session: 2026 – 2027")
     r_deg_text.font.name = 'Times New Roman'
-    r_deg_text.font.size = Pt(11)
+    r_deg_text.font.size = Pt(10.5)
     r_deg_text.font.bold = True
-    r_deg_text.font.color.rgb = ACCENT_BLUE
+    r_deg_text.font.color.rgb = INDIGO
 
-    # Thin decorative divider
+    # Divider
     cp_div = outer_cell.add_paragraph()
     cp_div.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    cp_div.paragraph_format.space_after = Pt(14)
+    cp_div.paragraph_format.space_after = Pt(10)
     r_div = cp_div.add_run("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     r_div.font.name = 'Times New Roman'
-    r_div.font.size = Pt(10)
+    r_div.font.size = Pt(9.5)
     r_div.font.color.rgb = SLATE
 
-    # Title Block
+    # Project Title
     cp_title = outer_cell.add_paragraph()
     cp_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    cp_title.paragraph_format.space_after = Pt(8)
+    cp_title.paragraph_format.space_after = Pt(6)
     r_t1 = cp_title.add_run("E-COMMERCE CUSTOMER LIFECYCLE &\nRFM SEGMENTATION DASHBOARD")
     r_t1.font.name = 'Times New Roman'
-    r_t1.font.size = Pt(18)
+    r_t1.font.size = Pt(17)
     r_t1.font.bold = True
     r_t1.font.color.rgb = INDIGO
 
     cp_sub = outer_cell.add_paragraph()
     cp_sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    cp_sub.paragraph_format.space_after = Pt(16)
+    cp_sub.paragraph_format.space_after = Pt(12)
     r_s1 = cp_sub.add_run("An Applied Machine Learning & Analytics Engineering System\nfor Commercial Retention & Behavioral Cohort Optimization")
     r_s1.font.name = 'Times New Roman'
-    r_s1.font.size = Pt(11.5)
+    r_s1.font.size = Pt(11)
     r_s1.font.italic = True
     r_s1.font.color.rgb = NAVY
 
@@ -214,33 +220,33 @@ def build_report():
         c0.text, c1.text = label, val
         c0.paragraphs[0].runs[0].font.name = 'Times New Roman'
         c0.paragraphs[0].runs[0].font.bold = True
-        c0.paragraphs[0].runs[0].font.size = Pt(9.5)
+        c0.paragraphs[0].runs[0].font.size = Pt(9)
         c1.paragraphs[0].runs[0].font.name = 'Times New Roman'
-        c1.paragraphs[0].runs[0].font.size = Pt(9.5)
+        c1.paragraphs[0].runs[0].font.size = Pt(9)
         set_cell_background(c0, "F8FAFC")
         set_cell_background(c1, "FFFFFF")
-        set_cell_margins(c0, top=45, bottom=45, left=90, right=90)
-        set_cell_margins(c1, top=45, bottom=45, left=90, right=90)
+        set_cell_margins(c0, top=35, bottom=35, left=70, right=70)
+        set_cell_margins(c1, top=35, bottom=35, left=70, right=70)
 
     # Spacing
     cp_sp = outer_cell.add_paragraph()
-    cp_sp.paragraph_format.space_after = Pt(18)
+    cp_sp.paragraph_format.space_after = Pt(12)
 
     # Scholar & Guidance Information Block
     meta_sub_table = outer_cell.add_table(rows=2, cols=2)
     meta_sub_table.alignment = WD_TABLE_ALIGNMENT.CENTER
     cell_m1 = meta_sub_table.rows[0].cells[0]
     cell_m2 = meta_sub_table.rows[0].cells[1]
-    cell_m1.text = "SUBMITTED BY:\nMr. Deep Koshiya\nB.Sc. AI and Data Science\nSemester: VII"
-    cell_m2.text = "SUPERVISED & VERIFIED BY:\nProject Supervisor\nDepartment of AI & Data Science\nEvaluation & Signature Stamp"
+    cell_m1.text = "SUBMITTED BY:\nMr. Deep Koshiya\nB.Sc. AI and Data Science\nSemester: V (5th Semester)"
+    cell_m2.text = "SUPERVISED & VERIFIED BY:\nProject Supervisor\nDepartment of AI & Data Science\nInstitute of Advanced Research (IAR)"
     for c in [cell_m1, cell_m2]:
         for p in c.paragraphs:
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
             for r in p.runs:
                 r.font.name = 'Times New Roman'
-                r.font.size = Pt(9.5)
+                r.font.size = Pt(9)
         set_cell_background(c, "F1F5F9")
-        set_cell_margins(c, top=60, bottom=60, left=80, right=80)
+        set_cell_margins(c, top=45, bottom=45, left=60, right=60)
 
     # Signature line
     cell_sig1 = meta_sub_table.rows[1].cells[0]
@@ -252,9 +258,9 @@ def build_report():
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
             for r in p.runs:
                 r.font.name = 'Times New Roman'
-                r.font.size = Pt(9)
+                r.font.size = Pt(8.5)
         set_cell_background(c, "FFFFFF")
-        set_cell_margins(c, top=50, bottom=50, left=80, right=80)
+        set_cell_margins(c, top=40, bottom=40, left=60, right=60)
 
     doc.add_page_break()
 
@@ -264,15 +270,15 @@ def build_report():
     add_para("Page I - II", space_after=2, align=WD_ALIGN_PARAGRAPH.RIGHT, italic=True)
     add_h1("ACKNOWLEDGMENT", space_before=2, space_after=4)
     add_para(
-        "I express my sincere gratitude to my assigned project supervisor and the esteemed faculty members of the Department of Artificial Intelligence & Data Science for their invaluable guidance, encouragement, and insightful feedback throughout the problem identification and system design phases of this project."
+        "I express my sincere gratitude to my assigned project supervisor and the esteemed faculty members of the Department of Artificial Intelligence & Data Science at the Institute of Advanced Research (IAR) for their invaluable guidance, encouragement, and insightful feedback throughout the problem identification and system design phases of this project."
     )
     add_para(
-        "I also thank the Project Coordinator and the Head of the School for facilitating the computational lab environment and resources necessary to execute Project-1 (PRJ-701) in accordance with the prescribed university schedule."
+        "I also thank the Project Coordinator and the Head of the School for facilitating the computational lab environment and resources necessary to execute Project-1 (PRJ-701 / CE-502) in accordance with the prescribed university schedule."
     )
     add_para(
         "This First Progress Work report, submitted on 24/09/2026, encompasses the foundational requirements, data engineering pipeline architecture, and complete UML/DFD models (Sections 1.1, 1.2, 1.3, 2.1, and 2.2). I remain dedicated to incorporating all supervisory feedback for the upcoming Mid-Term evaluation."
     )
-    add_para("Deep Koshiya | B.Sc. AI and Data Science (Sem VII) | Date: 24th September 2026", space_after=10, space_before=2, align=WD_ALIGN_PARAGRAPH.RIGHT, italic=True)
+    add_para("Deep Koshiya | B.Sc. AI and Data Science (Semester V) | Date: 24th September 2026", space_after=10, space_before=2, align=WD_ALIGN_PARAGRAPH.RIGHT, italic=True)
 
     add_h1("ABSTRACT", space_before=6, space_after=4)
     add_para(
@@ -282,7 +288,7 @@ def build_report():
         "The automated pipeline ingests raw transaction event logs, enforces schema validation, isolates unauthenticated sessions, segregates reverse logistics (credit notes and cancellations) into an audit ledger, and neutralizes bulk B2B distribution anomalies using Tukey's Interquartile Range (IQR) fences. A vectorized feature engineering engine computes customer-level Recency, Frequency, and Monetary (RFM) dimensions alongside Average Order Value (AOV). Features undergo log1p compression and Z-score standardization to alleviate Pareto spend skewness, enabling robust K-Means clustering evaluated via Elbow and Silhouette diagnostics. Concurrently, a rule-based quantile stratification engine (pd.qcut) computes deterministic 1–5 behavioral tiers mapping customers into 8 actionable cohorts (such as 'Champions', 'Loyal Customers', and 'At Risk Whales')."
     )
     add_para(
-        "This First Progress Work report documents the system foundation and software engineering design for the 24/09/2026 milestone. It presents complete Level-0, Level-1, and Level-2 Data Flow Diagrams (DFDs) alongside a comprehensive Use Case Model and specification matrix, fulfilling all requirements for the first 10-mark evaluation."
+        "This First Progress Work report documents the system foundation and software engineering design for the 24/09/2026 milestone at Institute of Advanced Research (IAR). It presents complete Level-0, Level-1, and Level-2 Data Flow Diagrams (DFDs) alongside a comprehensive Use Case Model and specification matrix, fulfilling all requirements for the first 10-mark evaluation."
     )
 
     doc.add_page_break()
@@ -292,7 +298,7 @@ def build_report():
     # =========================================================================
     add_para("Page VI - VIII", space_after=2, align=WD_ALIGN_PARAGRAPH.RIGHT, italic=True)
     add_h1("INDEX OF THE PROJECT REPORT", space_before=2, space_after=3)
-    add_para("(Structured strictly according to Syllabus Guidelines for B.Sc. AI and Data Science SEM VII)", space_after=4, italic=True)
+    add_para("(Structured strictly according to Syllabus Guidelines for B.Sc. AI and Data Science SEM V)", space_after=4, italic=True)
 
     idx_table = doc.add_table(rows=18, cols=3)
     idx_table.alignment = WD_TABLE_ALIGNMENT.CENTER
@@ -303,7 +309,7 @@ def build_report():
         c.paragraphs[0].runs[0].font.name = 'Times New Roman'
         c.paragraphs[0].runs[0].font.bold = True
         c.paragraphs[0].runs[0].font.size = Pt(8.5)
-        set_cell_background(c, "0F172A")
+        set_cell_background(c, "7A003C") # IAR Maroon
         c.paragraphs[0].runs[0].font.color.rgb = RGBColor(255, 255, 255)
 
     index_entries = [
@@ -414,7 +420,7 @@ def build_report():
         c.paragraphs[0].runs[0].font.name = 'Times New Roman'
         c.paragraphs[0].runs[0].font.bold = True
         c.paragraphs[0].runs[0].font.size = Pt(8.5)
-        set_cell_background(c, "0F172A")
+        set_cell_background(c, "7A003C") # IAR Maroon
         c.paragraphs[0].runs[0].font.color.rgb = RGBColor(255, 255, 255)
 
     r_specs = [
@@ -470,7 +476,7 @@ def build_report():
         c.paragraphs[0].runs[0].font.name = 'Times New Roman'
         c.paragraphs[0].runs[0].font.bold = True
         c.paragraphs[0].runs[0].font.size = Pt(8.5)
-        set_cell_background(c, "0F172A")
+        set_cell_background(c, "7A003C") # IAR Maroon
         c.paragraphs[0].runs[0].font.color.rgb = RGBColor(255, 255, 255)
 
     t_data = [
@@ -578,7 +584,7 @@ def build_report():
         c.paragraphs[0].runs[0].font.name = 'Times New Roman'
         c.paragraphs[0].runs[0].font.bold = True
         c.paragraphs[0].runs[0].font.size = Pt(8)
-        set_cell_background(c, "0F172A")
+        set_cell_background(c, "7A003C") # IAR Maroon
         c.paragraphs[0].runs[0].font.color.rgb = RGBColor(255, 255, 255)
 
     u_data = [
@@ -601,7 +607,7 @@ def build_report():
 
     add_h2("MILESTONE EVALUATION SUMMARY (24/09/2026)", space_before=5, space_after=2)
     add_para(
-        "This submission formally completes the First Progress Work milestone (10 Marks allotted) scheduled for 24/09/2026 for B.Sc. AI and Data Science. All required index sections (1.1, 1.2, 1.3, 2.1, and 2.2) have been fully developed and validated. The technical artifacts, UML models, and data pipelines are complete and ready for supervisor review."
+        "This submission formally completes the First Progress Work milestone (10 Marks allotted) scheduled for 24/09/2026 for B.Sc. AI and Data Science (Semester V) at Institute of Advanced Research (IAR). All required index sections (1.1, 1.2, 1.3, 2.1, and 2.2) have been fully developed and validated. The technical artifacts, UML models, and data pipelines are complete and ready for supervisor review."
     )
 
     add_caption("Table 2.2: Project Progress Work Evaluation & Milestone Tracking")
@@ -614,7 +620,7 @@ def build_report():
         c.paragraphs[0].runs[0].font.name = 'Times New Roman'
         c.paragraphs[0].runs[0].font.bold = True
         c.paragraphs[0].runs[0].font.size = Pt(7.5)
-        set_cell_background(c, "0F172A")
+        set_cell_background(c, "7A003C") # IAR Maroon
         c.paragraphs[0].runs[0].font.color.rgb = RGBColor(255, 255, 255)
 
     p_data = [
@@ -641,7 +647,7 @@ def build_report():
     out_docx_path = base_dir / "Deep_Koshiya_ProjectReport_Progress1.docx"
     doc.save(str(out_docx_path))
     doc.save(str(base_dir / "Deep_Koshiya_ProjectReport.docx"))
-    print(f"[SUCCESS] Saved beautifully styled report to {out_docx_path}")
+    print(f"[SUCCESS] Saved IAR branded report to {out_docx_path}")
 
 if __name__ == "__main__":
     build_report()
